@@ -42,11 +42,11 @@ const AboutSection = () => {
           <ScrollReveal delay={0.2}>
             <div className="relative mx-auto w-fit">
               <div className="relative overflow-hidden border border-border">
-                <img
-                  src={wesleyPhoto}
-                  alt="Wesley Renato - Desenvolvedor Full-Stack"
-                  className="h-[400px] w-[350px] object-cover grayscale transition-all duration-700 hover:grayscale-0 md:h-[500px] md:w-[400px]"
-                />
+                 <img
+                   src={wesleyPhoto}
+                   alt="Wesley Renato - Desenvolvedor Full-Stack"
+                   className="h-[300px] w-[260px] sm:h-[400px] sm:w-[350px] object-cover grayscale transition-all duration-700 hover:grayscale-0 md:h-[500px] md:w-[400px]"
+                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 font-mono text-xs text-primary">
                   WESLEY.RENATO // DEV
