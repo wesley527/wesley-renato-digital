@@ -98,6 +98,39 @@
   }
 }
 
+/* Custom neon cursor */
+* {
+  cursor: none !important;
+}
+.neon-cursor {
+  pointer-events: none;
+  position: fixed;
+  z-index: 9999;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid hsl(153 100% 50%);
+  box-shadow: 0 0 8px hsl(153 100% 50% / 0.6), 0 0 20px hsl(153 100% 50% / 0.3), inset 0 0 6px hsl(153 100% 50% / 0.4);
+  transform: translate(-50%, -50%);
+  transition: width 0.15s, height 0.15s, border-width 0.15s;
+  animation: cursor-pulse 1.5s ease-in-out infinite;
+}
+.neon-cursor-dot {
+  pointer-events: none;
+  position: fixed;
+  z-index: 10000;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: hsl(153 100% 50%);
+  box-shadow: 0 0 6px hsl(153 100% 50%);
+  transform: translate(-50%, -50%);
+}
+@keyframes cursor-pulse {
+  0%, 100% { box-shadow: 0 0 8px hsl(153 100% 50% / 0.6), 0 0 20px hsl(153 100% 50% / 0.3); }
+  50% { box-shadow: 0 0 12px hsl(153 100% 50% / 0.8), 0 0 30px hsl(153 100% 50% / 0.5); }
+}
+
 /* Selection */
 ::selection {
   background: hsl(var(--primary) / 0.3);
