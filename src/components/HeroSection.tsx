@@ -19,7 +19,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-6 text-4xl font-bold leading-[0.95] tracking-tight text-foreground sm:text-5xl md:text-7xl"
+          className="mb-6 text-3xl font-bold leading-[0.95] tracking-tight text-foreground sm:text-4xl md:text-7xl"
         >
           TRANSFORMANDO IDEIAS EM{" "}
           <span className="text-primary glow-text">
