@@ -22,7 +22,7 @@ const ContactSection = () => {
               href="https://wa.me/5500000000000"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-3 border border-primary bg-primary px-8 py-4 text-xs font-bold tracking-widest text-primary-foreground transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_10px_30px_hsl(153_100%_50%/0.3)]"
+              className="group inline-flex items-center gap-3 border border-primary bg-primary px-6 py-3 sm:px-8 sm:py-4 text-xs font-bold tracking-widest text-primary-foreground transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_10px_30px_hsl(153_100%_50%/0.3)]"
             >
               <MessageCircle size={16} />
               WHATSAPP
