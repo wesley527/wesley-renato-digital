@@ -16,7 +16,7 @@ const items = [...techs, ...techs];
 
 const TechSlider = () => {
   return (
-    <div className="relative w-full max-w-3xl mx-auto overflow-hidden py-8">
+    <div className="relative w-full max-w-3xl mx-auto overflow-hidden py-6 sm:py-8">
       {/* Gradient masks */}
       <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-20 bg-gradient-to-r from-background to-transparent" />
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-background to-transparent" />
