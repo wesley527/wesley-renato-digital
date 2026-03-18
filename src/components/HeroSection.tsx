@@ -4,8 +4,8 @@ import TechSlider from "./TechSlider";
 
 const HeroSection = () => {
   return (
-    <section className="relative flex min-h-screen items-center justify-center px-6">
-      <div className="relative z-10 max-w-4xl text-center">
+    <section className="relative flex min-h-screen items-center justify-center px-4 sm:px-6">
+      <div className="relative z-10 w-full max-w-4xl text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
