@@ -39,6 +39,8 @@ const Index = () => {
       </main>
       <Footer />
       <WhatsAppFloat />
+      <NeonCursor />
+      <ScrollToTop />
     </div>
   );
 };
