@@ -38,7 +38,7 @@ const TechSlider = () => {
             key={`${tech.name}-${i}`}
             className="group flex flex-col items-center gap-2 px-2"
           >
-            <div className="relative flex h-16 w-16 items-center justify-center rounded-lg border border-border bg-card transition-all duration-300 group-hover:border-primary group-hover:shadow-[0_0_15px_hsl(var(--primary-glow)),0_0_30px_hsl(var(--primary-glow))]">
+            <div className="relative flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-lg border border-border bg-card transition-all duration-300 group-hover:border-primary group-hover:shadow-[0_0_15px_hsl(var(--primary-glow)),0_0_30px_hsl(var(--primary-glow))]">
               <span className="text-2xl">{tech.icon}</span>
               {/* Particle dots */}
               <div className="absolute -top-1 -right-1 h-1.5 w-1.5 rounded-full bg-primary opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:animate-ping" />
