@@ -26,7 +26,7 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projetos" className="relative px-6 py-24 md:py-40">
+    <section id="projetos" className="relative px-4 py-16 sm:px-6 sm:py-24 md:py-40">
       <div className="mx-auto max-w-[1200px]">
         <ScrollReveal>
           <h2 className="mb-16 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
