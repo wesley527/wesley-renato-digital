@@ -7,6 +7,7 @@ const services = [
   { icon: Cpu, num: "03", title: "Sistemas Personalizados", desc: "Soluções sob medida para automatizar processos e otimizar operações." },
   { icon: Rocket, num: "04", title: "Automação", desc: "Fluxos automatizados que economizam tempo e eliminam trabalho manual." },
   { icon: Mic, num: "05", title: "Palestras & Treinamentos", desc: "Capacitação de times com foco em alta performance e tecnologia." },
+  { icon: Rocket, num: "06", title: "Consultoria Digital", desc: "Análise estratégica e orientação técnica para acelerar o crescimento do seu negócio online." },
 ];
 
 const ServicesSection = () => {
