@@ -36,7 +36,7 @@ const Navbar = () => {
           : "border-transparent bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-20 max-w-[1200px] items-center justify-between px-6 lg:px-8">
+      <div className="mx-auto flex h-16 sm:h-20 max-w-[1200px] items-center justify-between px-4 sm:px-6 lg:px-8">
         <a
           href="#"
           className="text-xl font-bold tracking-tight text-foreground"

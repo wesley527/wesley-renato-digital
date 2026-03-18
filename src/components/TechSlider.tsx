@@ -16,13 +16,13 @@ const items = [...techs, ...techs];
 
 const TechSlider = () => {
   return (
-    <div className="relative w-full max-w-3xl mx-auto overflow-hidden py-8">
+    <div className="relative w-full max-w-3xl mx-auto overflow-hidden py-6 sm:py-8">
       {/* Gradient masks */}
       <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-20 bg-gradient-to-r from-background to-transparent" />
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-background to-transparent" />
 
       <motion.div
-        className="flex w-max gap-10"
+        className="flex w-max gap-6 sm:gap-10"
         animate={{ x: ["0%", "-50%"] }}
         transition={{
           x: {
@@ -38,7 +38,7 @@ const TechSlider = () => {
             key={`${tech.name}-${i}`}
             className="group flex flex-col items-center gap-2 px-2"
           >
-            <div className="relative flex h-16 w-16 items-center justify-center rounded-lg border border-border bg-card transition-all duration-300 group-hover:border-primary group-hover:shadow-[0_0_15px_hsl(var(--primary-glow)),0_0_30px_hsl(var(--primary-glow))]">
+            <div className="relative flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-lg border border-border bg-card transition-all duration-300 group-hover:border-primary group-hover:shadow-[0_0_15px_hsl(var(--primary-glow)),0_0_30px_hsl(var(--primary-glow))]">
               <span className="text-2xl">{tech.icon}</span>
               {/* Particle dots */}
               <div className="absolute -top-1 -right-1 h-1.5 w-1.5 rounded-full bg-primary opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:animate-ping" />

@@ -4,8 +4,8 @@ import TechSlider from "./TechSlider";
 
 const HeroSection = () => {
   return (
-    <section className="relative flex min-h-screen items-center justify-center px-6">
-      <div className="relative z-10 max-w-4xl text-center">
+    <section className="relative flex min-h-screen items-center justify-center px-4 sm:px-6">
+      <div className="relative z-10 w-full max-w-4xl text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -19,7 +19,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-6 text-4xl font-bold leading-[0.95] tracking-tight text-foreground sm:text-5xl md:text-7xl"
+          className="mb-6 text-3xl font-bold leading-[0.95] tracking-tight text-foreground sm:text-4xl md:text-7xl"
         >
           TRANSFORMANDO IDEIAS EM{" "}
           <span className="text-primary glow-text">
@@ -31,7 +31,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground"
+          className="mx-auto mb-10 max-w-2xl text-sm sm:text-base md:text-lg text-muted-foreground"
         >
           Wesley Renato — Desenvolvedor Full-Stack & Fundador da Mind M4rketing.
           Especialista em arquitetura de alta performance e conversão digital.
@@ -49,7 +49,7 @@ const HeroSection = () => {
               e.preventDefault();
               document.querySelector("#projetos")?.scrollIntoView({ behavior: "smooth" });
             }}
-            className="group inline-flex items-center border border-primary bg-primary px-8 py-4 text-xs font-bold tracking-widest text-primary-foreground transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_10px_30px_hsl(153_100%_50%/0.3)]"
+            className="group inline-flex items-center border border-primary bg-primary px-6 py-3 sm:px-8 sm:py-4 text-xs font-bold tracking-widest text-primary-foreground transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_10px_30px_hsl(153_100%_50%/0.3)]"
           >
             VER PROJETOS
           </a>
@@ -57,7 +57,7 @@ const HeroSection = () => {
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center border border-border px-8 py-4 text-xs font-bold tracking-widest text-foreground transition-all duration-400 hover:border-primary hover:text-primary"
+            className="inline-flex items-center border border-border px-6 py-3 sm:px-8 sm:py-4 text-xs font-bold tracking-widest text-foreground transition-all duration-400 hover:border-primary hover:text-primary"
           >
             WHATSAPP
           </a>

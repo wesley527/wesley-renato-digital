@@ -3,10 +3,10 @@ import mindLogo from "@/assets/mind-marketing-logo.png";
 
 const MindMarketingSection = () => {
   return (
-    <section className="relative px-6 py-24 md:py-40">
+    <section className="relative px-4 py-16 sm:px-6 sm:py-24 md:py-40">
       <div className="mx-auto max-w-[1200px]">
         <ScrollReveal>
-          <div className="relative overflow-hidden border border-border bg-card p-10 md:p-16">
+          <div className="relative overflow-hidden border border-border bg-card p-6 sm:p-10 md:p-16">
             {/* Scan line effect */}
             <div className="pointer-events-none absolute inset-0 overflow-hidden opacity-5">
               <div className="absolute left-0 top-0 h-[1px] w-full animate-scan-line bg-primary" />
@@ -17,7 +17,7 @@ const MindMarketingSection = () => {
                 <span className="mb-4 inline-block font-mono text-xs tracking-[0.3em] text-primary opacity-60">
                   // BRAND
                 </span>
-                <h3 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">
+                <h3 className="mb-4 text-2xl font-bold text-foreground sm:mb-6 sm:text-3xl md:text-4xl">
                   MIND M4RKETING{" "}
                   <span className="text-primary">CRIATIVE</span>
                 </h3>
