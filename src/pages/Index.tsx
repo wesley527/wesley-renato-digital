@@ -10,6 +10,8 @@ import MindMarketingSection from "@/components/MindMarketingSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import NeonCursor from "@/components/NeonCursor";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   const [loading, setLoading] = useState(true);
@@ -37,6 +39,8 @@ const Index = () => {
       </main>
       <Footer />
       <WhatsAppFloat />
+      <NeonCursor />
+      <ScrollToTop />
     </div>
   );
 };
