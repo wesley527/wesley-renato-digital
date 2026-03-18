@@ -18,7 +18,7 @@ const AboutSection = () => {
                 VISÃO<br />
                 <span className="text-primary">ESTRATÉGICA</span>
               </h2>
-              <p className="mb-8 leading-relaxed text-muted-foreground">
+              <p className="mb-6 text-sm leading-relaxed text-muted-foreground sm:text-base md:mb-8">
                 Não entrego apenas código. Entrego ativos digitais. Com 25 anos e uma 
                 trajetória de 7 anos no mercado, entendo que a tecnologia deve servir 
                 ao lucro e à escalabilidade. Cada linha de código é pensada para gerar 
