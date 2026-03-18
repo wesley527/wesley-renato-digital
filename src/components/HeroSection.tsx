@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
+import TechSlider from "./TechSlider";
 
 const HeroSection = () => {
   return (
@@ -60,6 +61,14 @@ const HeroSection = () => {
           >
             WHATSAPP
           </a>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 0.8 }}
+        >
+          <TechSlider />
         </motion.div>
       </div>
 
