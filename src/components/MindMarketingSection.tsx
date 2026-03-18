@@ -3,7 +3,7 @@ import mindLogo from "@/assets/mind-marketing-logo.png";
 
 const MindMarketingSection = () => {
   return (
-    <section className="relative px-6 py-24 md:py-40">
+    <section className="relative px-4 py-16 sm:px-6 sm:py-24 md:py-40">
       <div className="mx-auto max-w-[1200px]">
         <ScrollReveal>
           <div className="relative overflow-hidden border border-border bg-card p-10 md:p-16">
