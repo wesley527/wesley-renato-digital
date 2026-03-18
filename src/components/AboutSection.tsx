@@ -9,7 +9,7 @@ const stats = [
 
 const AboutSection = () => {
   return (
-    <section id="sobre" className="relative px-6 py-24 md:py-40">
+    <section id="sobre" className="relative px-4 py-16 sm:px-6 sm:py-24 md:py-40">
       <div className="mx-auto max-w-[1200px]">
         <div className="grid items-center gap-16 md:grid-cols-2">
           <ScrollReveal>

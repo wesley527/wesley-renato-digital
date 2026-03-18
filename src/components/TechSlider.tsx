@@ -22,7 +22,7 @@ const TechSlider = () => {
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-background to-transparent" />
 
       <motion.div
-        className="flex w-max gap-10"
+        className="flex w-max gap-6 sm:gap-10"
         animate={{ x: ["0%", "-50%"] }}
         transition={{
           x: {

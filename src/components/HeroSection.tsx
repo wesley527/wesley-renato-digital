@@ -57,7 +57,7 @@ const HeroSection = () => {
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center border border-border px-8 py-4 text-xs font-bold tracking-widest text-foreground transition-all duration-400 hover:border-primary hover:text-primary"
+            className="inline-flex items-center border border-border px-6 py-3 sm:px-8 sm:py-4 text-xs font-bold tracking-widest text-foreground transition-all duration-400 hover:border-primary hover:text-primary"
           >
             WHATSAPP
           </a>

@@ -17,7 +17,7 @@ const MindMarketingSection = () => {
                 <span className="mb-4 inline-block font-mono text-xs tracking-[0.3em] text-primary opacity-60">
                   // BRAND
                 </span>
-                <h3 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">
+                <h3 className="mb-4 text-2xl font-bold text-foreground sm:mb-6 sm:text-3xl md:text-4xl">
                   MIND M4RKETING{" "}
                   <span className="text-primary">CRIATIVE</span>
                 </h3>

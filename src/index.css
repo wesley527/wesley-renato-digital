@@ -98,9 +98,11 @@
   }
 }
 
-/* Custom neon cursor */
-* {
-  cursor: none !important;
+/* Custom neon cursor — desktop only */
+@media (min-width: 768px) {
+  * {
+    cursor: none !important;
+  }
 }
 .neon-cursor {
   pointer-events: none;

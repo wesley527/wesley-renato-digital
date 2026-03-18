@@ -31,7 +31,7 @@ const ContactSection = () => {
               href="https://instagram.com/wesley.code"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 border border-border px-8 py-4 text-xs font-bold tracking-widest text-foreground transition-all duration-400 hover:border-primary hover:text-primary"
+              className="inline-flex items-center gap-3 border border-border px-6 py-3 sm:px-8 sm:py-4 text-xs font-bold tracking-widest text-foreground transition-all duration-400 hover:border-primary hover:text-primary"
             >
               @WESLEY.CODE
             </a>

@@ -19,7 +19,7 @@ const ParticlesBackground = () => {
 
     let animationId: number;
     const particles: Particle[] = [];
-    const particleCount = 50;
+    const particleCount = window.innerWidth < 768 ? 20 : 50;
     const connectionDistance = 150;
 
     const resize = () => {

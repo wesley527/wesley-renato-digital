@@ -29,7 +29,7 @@ const ProjectsSection = () => {
     <section id="projetos" className="relative px-4 py-16 sm:px-6 sm:py-24 md:py-40">
       <div className="mx-auto max-w-[1200px]">
         <ScrollReveal>
-          <h2 className="mb-16 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
+          <h2 className="mb-10 text-2xl font-bold tracking-tight text-foreground sm:text-3xl sm:mb-16 md:text-5xl">
             PROJETOS
           </h2>
         </ScrollReveal>
