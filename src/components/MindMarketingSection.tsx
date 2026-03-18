@@ -1,4 +1,5 @@
 import ScrollReveal from "./ScrollReveal";
+import mindLogo from "@/assets/mind-marketing-logo.png";
 
 const MindMarketingSection = () => {
   return (
