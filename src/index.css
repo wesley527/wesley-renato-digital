@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,39 +9,28 @@
   :root {
     --background: 0 0% 0%;
     --foreground: 0 0% 100%;
-
     --card: 0 0% 4%;
     --card-foreground: 0 0% 100%;
-
     --popover: 0 0% 4%;
     --popover-foreground: 0 0% 100%;
-
     --primary: 153 100% 50%;
     --primary-foreground: 0 0% 0%;
-
     --secondary: 0 0% 7%;
     --secondary-foreground: 0 0% 100%;
-
     --muted: 0 0% 7%;
     --muted-foreground: 0 0% 53%;
-
     --accent: 0 0% 7%;
     --accent-foreground: 0 0% 100%;
-
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-
     --border: 0 0% 100% / 0.08;
     --input: 0 0% 100% / 0.08;
     --ring: 153 100% 50%;
-
     --radius: 0px;
-
     --surface: 0 0% 4%;
     --surface-accent: 0 0% 7%;
     --primary-glow: 153 100% 50% / 0.3;
     --text-muted: 0 0% 53%;
-
     --sidebar-background: 0 0% 4%;
     --sidebar-foreground: 0 0% 100%;
     --sidebar-primary: 153 100% 50%;
