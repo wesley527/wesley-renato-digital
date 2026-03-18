@@ -49,7 +49,7 @@ const HeroSection = () => {
               e.preventDefault();
               document.querySelector("#projetos")?.scrollIntoView({ behavior: "smooth" });
             }}
-            className="group inline-flex items-center border border-primary bg-primary px-8 py-4 text-xs font-bold tracking-widest text-primary-foreground transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_10px_30px_hsl(153_100%_50%/0.3)]"
+            className="group inline-flex items-center border border-primary bg-primary px-6 py-3 sm:px-8 sm:py-4 text-xs font-bold tracking-widest text-primary-foreground transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_10px_30px_hsl(153_100%_50%/0.3)]"
           >
             VER PROJETOS
           </a>
