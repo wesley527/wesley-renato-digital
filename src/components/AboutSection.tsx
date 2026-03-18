@@ -14,7 +14,7 @@ const AboutSection = () => {
         <div className="grid items-center gap-16 md:grid-cols-2">
           <ScrollReveal>
             <div>
-              <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
+              <h2 className="mb-6 text-2xl font-bold tracking-tight text-foreground sm:text-3xl md:mb-8 md:text-5xl">
                 VISÃO<br />
                 <span className="text-primary">ESTRATÉGICA</span>
               </h2>
