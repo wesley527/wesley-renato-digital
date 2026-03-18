@@ -31,7 +31,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground"
+          className="mx-auto mb-10 max-w-2xl text-sm sm:text-base md:text-lg text-muted-foreground"
         >
           Wesley Renato — Desenvolvedor Full-Stack & Fundador da Mind M4rketing.
           Especialista em arquitetura de alta performance e conversão digital.
