@@ -6,7 +6,7 @@ const MindMarketingSection = () => {
     <section className="relative px-4 py-16 sm:px-6 sm:py-24 md:py-40">
       <div className="mx-auto max-w-[1200px]">
         <ScrollReveal>
-          <div className="relative overflow-hidden border border-border bg-card p-10 md:p-16">
+          <div className="relative overflow-hidden border border-border bg-card p-6 sm:p-10 md:p-16">
             {/* Scan line effect */}
             <div className="pointer-events-none absolute inset-0 overflow-hidden opacity-5">
               <div className="absolute left-0 top-0 h-[1px] w-full animate-scan-line bg-primary" />
